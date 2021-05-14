@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet"/>
+<style>
+body{
+	padding: 0;
+	margin:0;
+	font-family: sans-serif;
+    background-color: rgba(139, 69, 19, 0.603);
+}
+
+nav ul {
+    background-color: darkgrey;
+    padding: 0 0px;
+    list-style: none;
+    position: relative;
+    width: 100%;
+    font-family: ‘helvetica’, arial;
+}
+ 
+nav ul:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+ 
+nav ul li {
+    float: left;
+    border-right:solid 1px #000; 
+}
+ 
+nav ul li a {
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+ 
+nav ul li a:hover{
+    background-color: steelblue; 
+}
+ 
+nav ul ul {
+    display: none;
+    background:whitesmoke;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    max-width: 300px;
+    width: auto;
+}
+ 
+nav ul ul li {
+    float: none;
+    border-bottom: 0px solid rgba(0,0,0,.2);
+    position: relative;
+    
+}
+ 
+nav ul li:hover > ul {
+    display: block; 
+}
+ 
+nav ul ul li a {
+    padding: 10px 20px;
+    color: black;
+}
+ 
+nav ul ul li a:hover {
+    background:steelblue;
+}
+ 
+nav ul ul ul {
+    position: absolute;
+    left: 100px;
+    top:0;
+    width: 100px;
+}
+</style>
+ 
+</head>
+<body>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="https://www.carmudi.co.id/mobilbaru/">Beranda</a></li>
+                <li class="nav"><a href="https://www.carmudi.co.id/mobilbaru/merek/hyundai/">HYUNDAI</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/hyundai/ioniq-electric/">Ioniq Electric</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/hyundai/kona-electric/">Kona Electric</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/hyundai/palisade/">Palisade</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/hyundai/santa-fe/">Santa FE</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/hyundai/i10/">i10</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/hyundai/tucson/">Tucson</a></li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/">TOYOTA</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/86/">86</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/agya/">Agya</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/alphard/">Alphard</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/c-hr/">C-HR</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/c-hr-hybrid/">C-HR Hybrid</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/calya/">Calya</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/corolla-altis/">Corolla Altis</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/supra/">Supra</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/vios/">Vios</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/toyota/voxy/">Voxy</a></li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/">DAIHATSU</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/ayla/">Ayla</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/gran-max-mb/">Gran-Max-MB</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/hi-max/">Hi-Max</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/rocky/">Rocky</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/xenia/">Xenia</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/sirion/">Sirion</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/daihatsu/terios/">Terios</a></li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="https://www.carmudi.co.id/mobilbaru/merek/nissan/">NISSAN</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/nissan/livina/">Livina</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/nissan/x-trail/">X-Trail</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/nissan/serena/">Serena</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/nissan/juke/">Juke</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/nissan/march/">March</a></li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/">BMW</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/330i/">330i</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/4-series/">4-Series</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/m2/">M2</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/x1/">X1</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/z4/">Z4</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/i8/">I8</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/bmw/m235i/">M235i</a></li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="https://www.carmudi.co.id/mobilbaru/merek/fuso/">FUSO</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/fuso/fighter-fn-61/">Fightr-fn-61</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/fuso/fighter-fn-62/">Fightr-fn-62</a></li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/">MERCENDES-BENZ</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/a-class/">A 200 Hatchback</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/a-200-sedan/">A 200 Sedan</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/amg-a-35/">AMG a 35</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/amg-e-53/">AMG E 53 4Matic Plus Coupe</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/g-63-amg/">AMG G 63</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/c-300/">C-300</a></li>
+                        <li><a href="https://www.carmudi.co.id/mobilbaru/merek/mercedes-benz/v-class/">V-Class</a></li>
+                    </ul>
+                </li>
+                <li class="nav"><a href="https://www.carmudi.co.id/motor-dijual/honda/indonesia">HONDA</a>
+                    <ul>
+                        <li><a href="https://www.carmudi.co.id/dijual/honda-cbr-250rr-dki-jakarta/7509245">CBR-250rr</a></li>
+                        <li><a href="https://www.carmudi.co.id/dijual/honda-vario-125-jawa-barat/7510862">Vario</a></li>
+                        <li><a href="https://www.carmudi.co.id/dijual/honda-cb-jawa-barat-bandung/7531715">cb</a></li>
+                        <li><a href="https://www.carmudi.co.id/dijual/honda-phantom-indonesia-lainnya/7525238">Phantom</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+</body>
+</html>
